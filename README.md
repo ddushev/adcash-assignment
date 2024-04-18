@@ -6,17 +6,22 @@ In order to evaluate the skills needed for the Adserver Javascript developer pos
 applicants to provide solutions for the following tasks, together with several test scenarios that
 prove their solution.
 
-Efficient Integer Conversion
+## Task.01 - Efficient Integer Conversion
+
 Create a function called, that accepts a positive integer and converts it into 1 in the most
 effective way possible. The function should return the number of steps executed. You can use
 only these three possible operations to convert the integer into 1:
+
 1. Add One
 2. Remove One
 3. Divide by 2 (only if the current amount is even)
+
+   
 For example:
 solution(4) # Should return 2 (using 2 steps to convert 4 into 1): 4 -> 2 -> 1
 solution(15) # Should return 5 (using 5 steps to convert 15 into 1): 15 -> 16 -> 8 -> 4 -> 2 -> 1
-Escape a labyrinth
+
+## Task.02 - Escape a labyrinth
 You have a labyrinth. The map is represented as a matrix of 0s and 1s, where 0s are passable
 space and 1s are impassable walls. The door out of the labyrinth is at the top left (0,0) and the door
 into the labyrinth is at the bottom right (w-1,h-1).
