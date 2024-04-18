@@ -22,22 +22,34 @@ solution(4) # Should return 2 (using 2 steps to convert 4 into 1): 4 -> 2 -> 1
 solution(15) # Should return 5 (using 5 steps to convert 15 into 1): 15 -> 16 -> 8 -> 4 -> 2 -> 1
 
 ## Task.02 - Escape a labyrinth
+
 You have a labyrinth. The map is represented as a matrix of 0s and 1s, where 0s are passable
 space and 1s are impassable walls. The door out of the labyrinth is at the top left (0,0) and the door
 into the labyrinth is at the bottom right (w-1,h-1).
+
 Write a function solution(map) that generates the length of the shortest path from the entry point to
 the exit, where you are allowed to remove one wall as part of your strategy. The path length is the
 total number of nodes you pass through, counting both the entrance and exit. The starting and
 ending positions are always passable (0). The map will always be solvable, though you may or may
 not need to remove a wall to solve it. The height and width of the map can be from 2 to 20. Moves
 can only be made in cardinal directions; no diagonal moves are allowed.
+
 For example:
 Your code should pass the following test cases. Note that it may also be run against other test cases
 not shown here.
-Input with matrix [[0, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 0], [0, 0, 0, 0, 0, 0], [0, 1, 1, 1, 1, 1], [0, 1, 1, 1, 1, 1],
-[0, 0, 0, 0, 0, 0]]) Should Output: 11
+Input with matrix
+`[
+   [0, 0, 0, 0, 0, 0], 
+   [1, 1, 1, 1, 1, 0], 
+   [0, 0, 0, 0, 0, 0], 
+   [0, 1, 1, 1, 1, 1], 
+   [0, 1, 1, 1, 1, 1],
+   [0, 0, 0, 0, 0, 0]
+]` Should Output: 11
 Input with matrix [[0, 1, 1, 0], [0, 0, 0, 1], [1, 1, 0, 0], [1, 1, 1, 0]]) Should Output: 7
-JavaScript DOM Manipulation
+
+## Task.03 - JavaScript DOM Manipulation
+
 Description:
 You're tasked with developing a JavaScript function that manipulates the Document Object
 Model (DOM) of any webpage to create a simplified and structured view. The function should
