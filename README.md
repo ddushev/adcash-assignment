@@ -1,8 +1,11 @@
-#Evaluation Tasks for Adserver
-##Javascript Developer Position
+# Evaluation Tasks for Adserver
+
+## Javascript Developer Position
+
 In order to evaluate the skills needed for the Adserver Javascript developer position, we request
 applicants to provide solutions for the following tasks, together with several test scenarios that
 prove their solution.
+
 Efficient Integer Conversion
 Create a function called, that accepts a positive integer and converts it into 1 in the most
 effective way possible. The function should return the number of steps executed. You can use
