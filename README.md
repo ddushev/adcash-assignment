@@ -64,7 +64,8 @@ Should Output: 7
 
 ## Task.03 - JavaScript DOM Manipulation
 
-Description:
+### Description:
+
 You're tasked with developing a JavaScript function that manipulates the Document Object
 Model (DOM) of any webpage to create a simplified and structured view. The function should
 perform the following actions:
@@ -73,7 +74,8 @@ perform the following actions:
 - Set the width of each div element to match the width of the screen.
 - Insert a Sample banner element with size (728x90) between each DIV with content of your
 choice
-Requirements:
+### Requirements:
+
 - Use vanilla JavaScript to achieve the specified functionality. Do not rely on any libraries or
 frameworks.
 - Ensure that only div elements are left on the page after the manipulation.
@@ -82,7 +84,8 @@ content and CSS styles gracefully.
 - Ensure that after applying the function, the webpage contains only the div elements with each
 div spanning the width of the screen + the added banners.
 - Document your code to explain its purpose and any assumptions made.
-Example:
+### Example:
+
 Given an HTML page with various content, including elements containing textual content,
 images, videos, and iframes, applying the function should result in the following:
 - Multimedia content (images, videos, iframes) and CSS styles are removed.
@@ -90,7 +93,8 @@ images, videos, and iframes, applying the function should result in the followin
 - All other content on the webpage is cleared, leaving only the div elements with each div
 spanning the width of the screen.
 - A banner with size of 728x90 is placed between each individual DIV element
-Additional Information:
+### Additional Information:
+
 This task evaluates the candidate's proficiency in:
 - DOM manipulation using vanilla JavaScript.
 - Handling and traversing DOM elements effectively.
