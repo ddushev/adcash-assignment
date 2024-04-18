@@ -39,16 +39,28 @@ Your code should pass the following test cases. Note that it may also be run aga
 not shown here.
 Input with matrix
 ```bash
-git clone [
+[
    [0, 0, 0, 0, 0, 0], 
    [1, 1, 1, 1, 1, 0], 
    [0, 0, 0, 0, 0, 0], 
    [0, 1, 1, 1, 1, 1], 
    [0, 1, 1, 1, 1, 1],
    [0, 0, 0, 0, 0, 0]
-]```
+]
+```
 Should Output: 11
-Input with matrix [[0, 1, 1, 0], [0, 0, 0, 1], [1, 1, 0, 0], [1, 1, 1, 0]]) Should Output: 7
+
+Input with matrix 
+```bash
+[
+   [0, 1, 1, 0],
+   [0, 0, 0, 1],
+   [1, 1, 0, 0],
+   [1, 1, 1, 0]
+]
+```
+Should Output: 7
+
 
 ## Task.03 - JavaScript DOM Manipulation
 
