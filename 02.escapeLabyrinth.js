@@ -11,12 +11,12 @@ function escapeLabyrinth(map) {
 
   // Queue for BFS: each item contains coordinates (x, y), steps taken, and whether wall has been removed
   const queue = [];
-  queue.push({ x: 0, y: 0, steps: 1, wallRemoved: false });
+  queue.push({ x: height - 1, y: width - 1, steps: 1, wallRemoved: false });
 
   while (queue.length > 0) {
     const { x, y, steps, wallRemoved } = queue.shift();
 
-    if (x === height - 1 && y === width - 1) {
+    if (x === 0 && y === 0) {
       return steps; // Reached the exit
     }
 
@@ -49,7 +49,7 @@ function escapeLabyrinth(map) {
 console.log(escapeLabyrinth([
   [0, 0, 0, 0, 0, 0],
   [1, 1, 1, 1, 1, 0],
-  [1, 1, 0, 0, 0, 0],
+  [0, 1, 0, 0, 0, 0],
   [0, 0, 1, 1, 1, 1],
   [0, 1, 1, 1, 1, 1],
   [0, 0, 0, 0, 0, 0]
